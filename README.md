@@ -4,7 +4,7 @@ A Go-based [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) serv
 
 ## What It Does
 
-MikrotikTool gives Claude **40+ tools** to interact with your MikroTik routers:
+MikrotikTool gives Claude **50+ tools** to interact with your MikroTik routers:
 
 - **Connect** to multiple RouterOS 7.1+ devices simultaneously
 - **Read** any configuration path, system info, logs, routes, DHCP leases, DNS, VLANs, and more
@@ -18,13 +18,22 @@ MikrotikTool gives Claude **40+ tools** to interact with your MikroTik routers:
 
 The server includes an embedded React web UI that launches in your browser:
 
-- Dark/light/system theme with persistent toggle
-- Multi-device selector -- switch between routers on any page
-- Network topology map
-- Firewall rule flow visualization
-- Real-time traffic dashboard
-- Health and security dashboards
+- Deep blue-black dark theme with frosted glass card design
+- System resource gauges: CPU, Memory, Storage, Temperature with color thresholds
+- Real-time traffic chart with 60-second rolling window (RX/TX area chart)
+- Interface tiles with inline SVG sparklines for per-interface monitoring
+- Dual font system: Inter (UI) + JetBrains Mono (data values)
+- Alert notifications with bell icon, unread badge, and dropdown panel
+- Connection status banner when no router is connected
+- Network topology map and firewall rule flow visualization
+- Health and security dashboards with pie charts and score cards
 - Network discovery (MNDP broadcast + router-based ARP/DHCP/neighbor)
+- Multi-device selector -- switch between routers from the sidebar
+- Loading skeletons and stale data indicators
+- Keyboard shortcuts: 1-9 page nav, d toggle dark mode, / log search
+- Responsive sidebar that collapses to icons on narrow screens
+- Smooth page transitions and hover effects
+- Dark/light/system theme with persistent toggle
 
 ## Quick Start
 
